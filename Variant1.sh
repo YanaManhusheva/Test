@@ -9,4 +9,4 @@ read name
 echo "Type the word you would like to find : "
 read word
 
-grep -i  $word $name.txt
+grep -i -w  $word $name.txt
